@@ -1,0 +1,14 @@
+{
+    "exp_name": "example",
+    "num_epochs": 10,
+    "num_iter_per_epoch": 10,
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "state_size": [784],
+    "max_to_keep":5,
+    
+    "dataset": "./data_loader/test_video.csv",
+    "frame_shape": [227, 227, 3],
+    "max_num_frame": 30,
+    "resize": true
+}
